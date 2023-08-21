@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); /* Importando a fonte Righteous 400*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap'); /* Importando a fonte Sarala 400*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap'); /* Importando a fonte Sarala 700*/
+
+* {
+    margin: 0; /* Distância entre as tags */
+    padding: 0; /* Distância entre o conteúdo e a tag main */
+    box-sizing: border-box;
+    text-decoration: none; /* Tira qualquer decoração que há no texto */
+}
+
+body {
+    font-size: 100%; /* Tamanho da fonte */
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho { /* Chamando a classe "cabecalho"*/
+    display: flex; /* Ditando para o CSS que vamos usar o flexbox*/
+    flex-direction: row; /* Deixando os elementos do cabecalho em linha*/
+    align-items: center; /* Alinhando os elementos no centro*/
+    justify-content: space-around; /* Criando espaçamento entre os elementos*/
+    padding: 24px; /* Distância de todos os lados*/
+}
+
+.cabecalho-imagem {
+    height: 72px; /* Altura*/
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px; /* Distanciando os elementos do Menu entre si*/
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+}
