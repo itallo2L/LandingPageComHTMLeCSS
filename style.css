@@ -32,5 +32,56 @@ body {
 }
 
 .cabecalho-menu-item {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Sarala', sans-serif; /* Seleção da fonte*/
+    color: #FFF2E7; /* Cor da fonte*/
+    font-weight: 400; /* "Peso" da fonte, quanto maior mais escuro*/
+    font-size: 18px; /* Tamanho da fonte*/
 }
+
+.conteudo {
+    margin-bottom: 48px; /* Margem entre o final do contéudo main e o início do footer*/
+    border-top: 0.4px solid #FFF2E7; /* Linha que marca o início do conteúdo main*/
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column; /* Deixando os elementos em coluna*/
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #ECD6C4; /* Cor do fundo*/
+    width: 180px; /* Largura do botão*/
+    height: 60px; /* Altura do botão*/
+    border: none; /* Tirando a borda do botão*/
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); /* Cria uma sombra para o botão*/
+    border-radius: 20px; /* Raio da borda*/
+    /* Estilizando a fonte do botão: */
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+/* Conferir porque a borda do botão tá feia*/
