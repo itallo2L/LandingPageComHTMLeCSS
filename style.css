@@ -84,4 +84,47 @@ body {
     color: #2F2325;
 }
 
-/* Conferir porque a borda do botão tá feia*/
+.conteudo-principal-escrito-botao:hover { /* A propriedade "hover" vai permitir uma mudança de cor no botão ao passar o mouse em cima dele*/
+    background-color: rgba(236, 214, 196, 0.53); /* Ditando a cor que ficará quando passar o mouse em cima do botão*/
+}
+}
+.conteudo-principal-imagem {
+    height: 430px; /* Altura da imagem*/
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7; /* Criando a listra do meio da página*/
+    padding-top: 48px; /* Distânciano a linha criada acima do título secundário*/
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7; /* Criando a listra antes do rodapé*/
+}
+
+.rodape-imagem {
+    height: 48px;
+    /* Colocando a imagem no meio da página: */
+    display: block; 
+    margin: 0 auto;
+}
